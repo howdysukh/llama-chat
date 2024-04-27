@@ -241,12 +241,7 @@ export default function HomePage() {
     <>
       <CallToAction />
       <nav className="sm:pt-8 pt-4 px-4 sm:px-12 flex items-center">
-        <div className="text-xl pr-3 font-semibold text-gray-500">
-          Chat with
-        </div>
-        <div className="font-semibold text-gray-500 sm:text-center">
-          <Dropdown models={MODELS} selectedModel={model} setModel={setModel} />
-        </div>
+        
         <div className="flex-grow"></div>
         <div className="justify-end">
           <a
@@ -257,7 +252,7 @@ export default function HomePage() {
               className="w-5 h-5 text-gray-500 sm:mr-2 group-hover:text-gray-900"
               aria-hidden="true"
             />{" "}
-            <span className="hidden sm:inline">Clone on GitHub</span>
+            <span className="hidden sm:inline">Back to 💫</span>
           </a>
           <button
             type="button"
